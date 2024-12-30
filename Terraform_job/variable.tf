@@ -14,3 +14,11 @@ variable "db_password" {
   type        = string
   sensitive   = true
 }
+variable "aws_access_key_id" {
+  description = "access key id for aws"
+  type        = string
+}
+variable "aws_secret_access_key" {
+  description = "access key for aws"
+  type        = string
+}

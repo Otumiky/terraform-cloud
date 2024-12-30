@@ -3,7 +3,7 @@ terraform {
     organization = "massive-dynamic3"
 
     workspaces {
-      name = "stage"
+      name = "terraform-cloud"
     }
   }
 }

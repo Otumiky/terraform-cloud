@@ -5,7 +5,7 @@ variable "ami_id" {
 variable "instance_type" {
   description = "The type of instance to use"
   type        = string
-  default     = "t3.micro"
+  default     = "t2.micro"
 }
 variable "db_password" {
   description = "The database password"
